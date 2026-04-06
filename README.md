@@ -7,7 +7,7 @@ Minimal accounting workspace for creators to track deals, unpaid money, invoices
 - `client/`: React + Vite + Tailwind
 - `server/`: Node.js + Express + MongoDB + Mongoose
 
-## Setup
+## Setup test
 
 1. Copy `server/.env.example` to `server/.env`
 2. Copy `client/.env.example` to `client/.env` if you want to override the API URL
