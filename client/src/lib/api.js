@@ -1,4 +1,4 @@
-const API_ORIGIN = "https://creatoraccountingos-production.up.railway.app";
+const API_ORIGIN = import.meta.env.VITE_API_URL || "https://creatoraccountingos-production.up.railway.app";
 
 function buildUrl(path) {
   if (/^https?:\/\//i.test(path)) return path;
