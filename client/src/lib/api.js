@@ -1,4 +1,4 @@
-const API_ORIGIN = import.meta.env.VITE_API_URL || "http://localhost:5001";
+const API_ORIGIN = "https://creatoraccountingos-production.up.railway.app";
 
 function buildUrl(path) {
   if (/^https?:\/\//i.test(path)) return path;
